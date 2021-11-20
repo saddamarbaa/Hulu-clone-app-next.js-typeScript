@@ -37,15 +37,15 @@ Router.events.on("routeChangeComplete", progress.finish);
 Router.events.on("routeChangeError", progress.finish);
 
 function MyApp({ Component, pageProps }: AppProps) {
-	const [user, loading] = useAuthState(auth);
+// 	const [user, loading] = useAuthState(auth);
 
-	if (loading) {
-		return <LoadingScreen />;
-	}
+// 	if (loading) {
+// 		return <LoadingScreen />;
+// 	}
 
-	if (!user) {
-		return <LogInScreen />;
-	}
+// 	if (!user) {
+// 		return <LogInScreen />;
+// 	}
 
 	return (
 		<React.Fragment>
