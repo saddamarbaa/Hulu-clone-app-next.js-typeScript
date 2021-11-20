@@ -60,7 +60,7 @@ const Home = (props) => {
 export const getServerSideProps = async (context) => {
 	const genre = context.query.genre;
 
-	let url = `https://api.themoviedb.org/3/trending/all/week?api_key=${process.env.NEXT_PUBLIC_TMDB_API_KEY}&language=en-US`;
+	let url = `https://api.themoviedb.org/3/trending/all/week?api_key=92bcc12799d8068995c7c9650f414f3e&language=en-US`;
 
 	if (request[genre]?.url) {
 		url = `https://api.themoviedb.org/3${request[genre]?.url}`;
