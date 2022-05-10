@@ -1,59 +1,57 @@
-/** @format */
-
 //  TMDB API KEY
-const API_KEY = "92bcc12799d8068995c7c9650f414f3e";
+const API_KEY = '92bcc12799d8068995c7c9650f414f3e'
 // function to fetch movies from (TMDb)
 const request = {
 	fetchTrending: {
-		title: "Trending",
+		title: 'Trending',
 		url: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
 	},
 	fetchNetflixOriginals: {
-		title: "Originals",
+		title: 'Originals',
 		url: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
 	},
 	fetchRomanceMovies: {
-		title: "Romance",
+		title: 'Romance',
 		url: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
 	},
 	fetchActionMovies: {
-		title: "Action",
+		title: 'Action',
 		url: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
 	},
 	fetchWarMovies: {
-		title: "War",
+		title: 'War',
 		url: `/discover/movie?api_key=${API_KEY}&with_genres=10752`,
 	},
 	fetchComedyMovies: {
-		title: "Comedy",
+		title: 'Comedy',
 		url: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
 	},
 
 	fetchCrimeMovies: {
-		title: "Crime",
+		title: 'Crime',
 		url: `/discover/movie?api_key=${API_KEY}&with_genres=80`,
 	},
 	fetchDocumentariesMovies: {
-		title: "Documentaries",
+		title: 'Documentaries',
 		url: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
 	},
 
 	fetchDramaMovies: {
-		title: "Drama",
+		title: 'Drama',
 		url: `/discover/movie?api_key=${API_KEY}&with_genres=18`,
 	},
 	fetchMysteryMovies: {
-		title: "Mystery",
+		title: 'Mystery',
 		url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
 	},
 	fetchAnimationMovies: {
-		title: "Animation",
+		title: 'Animation',
 		url: `/discover/movie?api_key=${API_KEY}&with_genres=16`,
 	},
 	fetchFamilyMovies: {
-		title: "Family",
+		title: 'Family',
 		url: `/discover/movie?api_key=${API_KEY}&with_genres=10751`,
 	},
-};
+}
 
-export default request;
+export default request
