@@ -10,6 +10,8 @@ import request from '../utils/request'
 
 const Home = (props) => {
   const BASE_URL = 'https://image.tmdb.org/t/p/original'
+
+  console.log(props.movies)
   return (
     <React.Fragment>
       <Head>
@@ -20,7 +22,6 @@ const Home = (props) => {
       <Nav />
       <div className="my-10 mx-auto max-w-[1500px] px-5 sm:grid md:grid-cols-2 xl:grid-cols-3">
         {props?.movies?.map((movie) => {
-          // src={`${BASE_URL}${movie?.backdrop_path} || ${movie?.poster_path}}`}
           return (
             <div
               key={movie?.id}
@@ -36,7 +37,10 @@ const Home = (props) => {
                 width={500}
                 height={320}
                 placeholder="blur"
-                blurDataURL="https://image.tmdb.org/t/p/original/4vCh8R4yd6ybOmbxRAPOzaXmLTV.jpg"
+                blurDataURL={
+                  `${BASE_URL}${movie?.backdrop_path || movie?.poster_path}` ||
+                  `https://image.tmdb.org/t/p/original/4vCh8R4yd6ybOmbxRAPOzaXmLTV.jpg`
+                }
               />
               <div className="p-2">
                 <p className="max-w-md truncate">{movie?.overview}</p>
@@ -44,7 +48,7 @@ const Home = (props) => {
                   {movie?.title || movie?.original_name}
                 </h2>
                 <p className="flex items-center opacity-0 group-hover:opacity-100">
-                  <ThumbUpIcon className="mx-2 h-6" /> {movie?.vote_count}
+                  <ThumbUpIcon className="mr-2 h-6" /> {movie?.vote_count}
                 </p>
               </div>
             </div>
@@ -65,6 +69,7 @@ export const getServerSideProps = async (context) => {
     url = `https://api.themoviedb.org/3${request[genre]?.url}`
   }
 
+  console.log('url', url)
   const res = await fetch(url)
   const data = await res.json()
 

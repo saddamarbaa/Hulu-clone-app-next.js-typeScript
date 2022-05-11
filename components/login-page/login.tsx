@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+
 import { auth } from '../../config/firebase'
 import { useRouter } from 'next/router'
-
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth'
 
 // Inside AuthProvider
@@ -20,6 +20,8 @@ const LogIn = () => {
         // The signed-in user info.
         const user = result.user
         console.log({ credential, token, user })
+
+        router.push('/')
       })
       .catch((error) => {
         // Handle Errors here.

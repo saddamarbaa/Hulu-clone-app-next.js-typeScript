@@ -1,5 +1,7 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp, getApps } from 'firebase/app'
 import { getAuth } from 'firebase/auth'
+import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
   apiKey: process.env.FIREBASE_API_KEY,
@@ -10,7 +12,10 @@ const firebaseConfig = {
   appId: process.env.APPID,
 }
 
-const firebaseApp = initializeApp(firebaseConfig)
-const auth = getAuth(firebaseApp)
+// Initialize Firebase
+const app = getApps().length > 0 ? getApps() : initializeApp(firebaseConfig)
 
-export { auth }
+const auth = getAuth()
+const db = getFirestore()
+
+export { auth, db }
