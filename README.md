@@ -1,7 +1,7 @@
 # Hulu
 
 Building Hulu Clone App with React Js, Next Js, TypeScript, Tailwind CSS, Vercel Hosting,
-with complete user authentication (a mobile-friendly).
+with user authentication (a mobile-friendly).
 
 
 # Table of contents
@@ -40,7 +40,7 @@ with complete user authentication (a mobile-friendly).
 
 # Demo
 
-## <a href="https://hulu-clone-app-next-js-type-script.vercel.app/">LIVE DEMO</a>
+## <a href="https://hulu-clone-app-nex-js.vercel.app/">LIVE DEMO</a>
 
 # Optimizations
 
@@ -60,27 +60,28 @@ Contributions are always welcome!
 
 # Related_Projects
 
-
-
 ###  Netflix Clone App built with React Js + Stripe Checkout/Payments + Firebase Hosting
 
 ###  <a href="https://github.com/saddamarbaa/netflix-clone-react"> Github Repo </a>
 ###  <a href="https://netflix-clone-80070.web.app/">LIVE DEMO</a> 
 
+### Facebook Clone App built with React Js + Next Js + TypeScript + Redux + Styled Components
 
+### <a href="https://github.com/saddamarbaa/facebook-clone-app-nex-js"> Github Repo </a>
 
-### Instagram Clone App built with React Js + Next Js + TypeScript + Redux + Tailwind CSS + Heroicons 
+### <a href="https://facebook-clone-app-nex-js.vercel.app/">LIVE DEMO</a>
 
-###  <a href="https://github.com/saddamarbaa/Instagram-clone-app-nex-js"> Github Repo </a>
-###  <a href="https://instagram-clone-app-nex-js.vercel.app/">LIVE DEMO</a> 
+### Instagram Clone App built with React Js + Next Js + TypeScript + Redux + Tailwind CSS + Heroicons
 
+### <a href="https://github.com/saddamarbaa/Instagram-clone-app-nex-js"> Github Repo </a>
 
+### <a href="https://instagram-clone-app-nex-js.vercel.app/">LIVE DEMO</a>
 
-###  Messenger Clone App built with React Js + Next Js + Redux +  Styled Components + Material-UI  
+### Messenger Clone App built with React Js + Next Js + Redux + Styled Components + Material-UI
 
-###  <a href="https://github.com/saddamarbaa/messenger-clone-app-nex-js"> Github Repo </a>
-###  <a href="https://messenger-clone-app-nex-js.vercel.app/">LIVE DEMO</a> 
+### <a href="https://github.com/saddamarbaa/messenger-clone-app-nex-js"> Github Repo </a>
 
+### <a href="https://messenger-clone-app-nex-js.vercel.app/">LIVE DEMO</a>
 
 ### Airbnb Clone App built with React Js + Next Js + Redux + Tailwind CSS
 
@@ -172,14 +173,18 @@ Build By Saddam Arbaa Project inspired by [Hulu]  https://www.hulu.com
 
 ## Responsive on large screens - Home Page
 
-![image](https://user-images.githubusercontent.com/51326421/142724641-6bd1eb11-ac18-4009-b896-517f8cb65d64.png)
+![image](https://user-images.githubusercontent.com/51326421/167844415-60ed5eb9-a0f8-4889-a925-d85c482c6b62.png)
 
 
 
+## Responsive on tablet screens
 
-## Responsive on mobile and tablet screens
+![image](https://user-images.githubusercontent.com/51326421/167844926-e7d6d873-71bf-48f1-bb06-955d331b17fe.png)
 
-![image](https://user-images.githubusercontent.com/51326421/142724664-50631b90-fe0b-4f7b-8acc-887367b38feb.png)
+
+## Responsive on mobile screens
+
+![image](https://user-images.githubusercontent.com/51326421/167845223-c0ffd798-829e-42d2-8b6b-58a5da18f449.png)
 
 
 
