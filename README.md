@@ -194,6 +194,12 @@ Build By Saddam Arbaa Project inspired by [Hulu]  https://www.hulu.com
 
 
 
+##  404 not found Page
+![image](https://user-images.githubusercontent.com/51326421/167853536-7db790ab-e814-42cf-8a89-e5fd9f4e779d.png)
+
+
+
+
 
 
 
