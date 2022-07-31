@@ -1,4 +1,4 @@
-# Hulu
+# Hulu Clone
 
 Building Hulu Clone App with React Js, Next Js, TypeScript, Tailwind CSS, Vercel Hosting,
 with user authentication (a mobile-friendly).
@@ -60,10 +60,17 @@ Contributions are always welcome!
 
 # Related_Projects
 
-###  Netflix Clone App built with React Js + Stripe Checkout/Payments + Firebase Hosting
+###  Netflix Clone App built with React Js + TypeScript + Redux + Stripe Checkout/Payments + Vercel Hosting + Firebase
 
-###  <a href="https://github.com/saddamarbaa/netflix-clone-react"> Github Repo </a>
-###  <a href="https://netflix-clone-80070.web.app/">LIVE DEMO</a> 
+#### <a href="https://github.com/saddamarbaa/netflix-clone-app-react-typescript"> Github Repo </a>
+####  <a href="https://netflix-clone-app-react-typescript.vercel.app/">LIVE DEMO</a>
+
+
+
+###  LinkedIn Clone App built with  React Js + TypeScript + Redux + Styled Components + Material-UI + Firebase Realtime Database + Vercel Hosting 
+
+###  <a href="https://github.com/saddamarbaa/LinkedIn-clone-app-react-typescript"> Github Repo </a>
+###  <a href="https://linkedin-clone-app-navy.vercel.app/">LIVE DEMO</a>
 
 ### Facebook Clone App built with React Js + Next Js + TypeScript + Redux + Styled Components
 
@@ -83,17 +90,17 @@ Contributions are always welcome!
 
 ### <a href="https://messenger-clone-app-nex-js.vercel.app/">LIVE DEMO</a>
 
-### Airbnb Clone App built with React Js + Next Js + Redux + Tailwind CSS
+### Airbnb Clone App built with React Js + Next Js + TypeScript + Redux + Tailwind CSS
 
 ### <a href="https://github.com/saddamarbaa/airbnb-clone-app-nex-js"> Github Repo </a>
 
 ### <a href="https://airbnb-clone-app-nex-js.vercel.app/">LIVE DEMO</a>
 
-### Amazon Clone App built with React Js + Redux + Styled Components
+### Amazon Clone App built with React Js + TypeScript + Redux + Styled Components
 
-### <a href="https://github.com/saddamarbaa/amazon-clone-app"> Github Repo </a>
+### <a href="https://github.com/saddamarbaa/amazon-clone-app-react-typescript"> Github Repo </a>
 
-### <a href="https://amazoon-clone-app.web.app/">LIVE DEMO</a>
+### <a href="https://amazon-clone-murex-six.vercel.app/">LIVE DEMO</a>
 
 
 # Support
